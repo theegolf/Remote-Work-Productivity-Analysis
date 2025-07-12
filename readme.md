@@ -18,13 +18,13 @@ The dataset comprises 1,000 records from workers across multiple industries, cap
 
 ## Metrics
 1. **Demographic Information**
-   
+   ![image](images/demographic.png)
    * **Industry Distribution**: The sample includes workers from five key sectors: retail (203 participants), IT (203 participants), education (203 participants), healthcare (199 participants), and finance (192 participants). Participants averaged 40.5 years of age with 17.6 years of industry experience, representing a mature and experienced workforce.
 
    * **Work Patterns and Performance Metrics**: Workers maintained an average daily schedule of 7.5 hours (450 minutes), during which they achieved 149.7 minutes of focused work time. The typical workday included approximately 3 breaks, suggesting regular intervals for rest and recovery. Performance indicators revealed strong overall productivity, with participants completing 81.3% of their assigned tasks while maintaining a low late-submission rate of 18.2%.
 
    * **Technology Integration**: Technology adoption varied significantly across automation categories. Workers averaged 7 automated task executions per day, utilized productivity-assistance tools 9.4 times daily, and incorporated AI-assisted planning tools approximately 0.5 times per day. This pattern suggests selective technology adoption, with workers favoring established automation and assistance tools over emerging AI planning capabilities.
-</br>
+
 2. **Productivity label and Industry metric**
    
    * **Demographic and Work Hour Pattern**
@@ -43,7 +43,7 @@ The dataset comprises 1,000 records from workers across multiple industries, cap
       * Tool usage generally increases with productivity levels, with Education showing the strongest positive correlation between tool adoption and performance.
       * Healthcare presents an anomaly with an inverted tool usage pattern compared to other sectors.
       * Automated task counts and AI-assisted planning show minimal variation between productivity groups, with Healthcare and Retail being exceptions where high performers utilize more automation than low performers.
-</br>
+
 3. **Work and work-life balance metric**
 
    * **Work Span per break**
@@ -76,7 +76,7 @@ The dataset comprises 1,000 records from workers across multiple industries, cap
       * All five industries show similar calendar schedule patterns, with scores ranging from approximately 30 to 99 (with an average and standard deviation of 67.894 and 19.741 respectively).
       ![image](images/calendar-productivity.png)
       *  Linear correlation analysis shows positive relationships between calendar schedule usage scores and productivity across all sectors, indicating that better schedule management consistently improves productivity.
-<br>   
+  
 4. **Technology Adoption and Productivity**
    * **Automated Task Usage Per Working Hour**
      * This metric evaluates the effectiveness of task automation in improving productivity across industries. Task automation uses technology to complete or augment repetitive, mundane tasks quickly and efficiently, reducing human error, increasing consistency, and saving time to boost productivity.
